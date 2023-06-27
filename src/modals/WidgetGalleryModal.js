@@ -3,7 +3,7 @@ import ClockWidget from "../widgets/ClockWidget";
 import ReminderListWidget from "../widgets/ReminderListWidget";
 import TimerWidget from "../widgets/TimerWidget";
 import CalendarWidget from "../widgets/CalendarWidget";
-import MyCustomerWidget from "../widgets/MyCustomerWidget";
+import MyCustomWidget from "../widgets/MyCustomWidget";
 
 export default function WidgetGalleryModal({
   setShowWidgetModal,
@@ -16,7 +16,7 @@ export default function WidgetGalleryModal({
     { component: <ReminderListWidget />, name: "Reminder List" },
     { component: <TimerWidget />, name: "Timer" },
     { component: <CalendarWidget />, name: "Calendar" },
-    { component: <MyCustomerWidget />, name: "Inspirational Photos" },
+    { component: <MyCustomWidget />, name: "Inspirational Photos" },
   ]);
   return (
     <div

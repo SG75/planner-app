@@ -5,7 +5,7 @@ import WidgetGalleryModal from "./modals/WidgetGalleryModal";
 import Draggable from "react-draggable";
 import TimerWidget from "./widgets/TimerWidget";
 import CalendarWidget from "./widgets/CalendarWidget";
-import MyCustomerWidget from "./widgets/MyCustomerWidget";
+import MyCustomerWidget from "./widgets/MyCustomWidget";
 
 function App() {
   const [widgets, setWidgets] = useState([
